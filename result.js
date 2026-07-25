@@ -223,10 +223,7 @@ console.log("กำลังส่งไปที่:", sheetURL);
 
 fetch(sheetURL,{
   method:"POST",
-  headers:{
-    "Content-Type":"application/json"
-  },
-  body:JSON.stringify({
+  body:new URLSearchParams({
 
     name:localStorage.getItem("userName"),
     department:localStorage.getItem("department"),
