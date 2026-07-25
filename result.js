@@ -219,6 +219,8 @@ localStorage.getItem("result")
 
 console.log("ส่งข้อมูล", result);
 
+console.log("กำลังส่งไปที่:", sheetURL);
+
 fetch(sheetURL,{
   method:"POST",
   headers:{
