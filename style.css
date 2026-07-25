@@ -361,3 +361,23 @@ button[onclick="nextQuestion()"] {
     color:white;
 
 }
+.prev-btn{
+    background:#e0e0e0;
+    color:#333;
+}
+
+
+.next-btn{
+    background:#2196f3;
+    color:white;
+}
+
+
+.prev-btn:hover{
+    background:#bdbdbd;
+}
+
+
+.next-btn:hover{
+    background:#1976d2;
+}
