@@ -243,14 +243,4 @@ fetch(sheetURL,{
 });
 
 }
-
-
-function saveToSheet(){
-
-    console.log("saveToSheet ทำงาน");
-
-    // โค้ดส่งข้อมูลของคุณทั้งหมดอยู่ตรงนี้
-
-}
-
 saveToSheet();
