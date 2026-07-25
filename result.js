@@ -2,7 +2,7 @@ let result = JSON.parse(
 localStorage.getItem("result")
 );
 const sheetURL = 
-"https://script.google.com/macros/s/AKfycbx7dGOUOCplNTNTRN5TjHH500KU_HJqSJLyRi9BWaT5IdcEd9vtcr1m-uuuFkUmwF2kdA/exec";
+"https://script.google.com/macros/s/AKfycby8KOQEIt0yd9buYrZEA5cg2k5FHvJte9o3ilr5JmNy5s8EBlv7ndlWPVdr9Bjtl2iAig/exec";
 console.log(result);
 
 
