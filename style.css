@@ -361,23 +361,33 @@ button[onclick="nextQuestion()"] {
     color:white;
 
 }
-.prev-btn{
-    background:#e0e0e0;
-    color:#333;
+.prev-btn {
+    background-color: #e0e0e0 !important;
+    color: #333 !important;
 }
 
 
-.next-btn{
-    background:#2196f3;
-    color:white;
+.next-btn {
+    background-color: #2196f3 !important;
+    color: white !important;
 }
 
 
-.prev-btn:hover{
-    background:#bdbdbd;
+.prev-btn:hover {
+    background-color: #bdbdbd !important;
 }
 
 
-.next-btn:hover{
-    background:#1976d2;
+.next-btn:hover {
+    background-color: #1976d2 !important;
+}
+
+
+.prev-btn:active {
+    transform: scale(0.95);
+}
+
+
+.next-btn:active {
+    transform: scale(0.95);
 }
