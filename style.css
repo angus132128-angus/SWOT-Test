@@ -267,3 +267,97 @@ cursor:pointer;
 background:#357abd;
 
 }
+/* ===== Test Page ===== */
+
+#progress {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+#category {
+    text-align: center;
+    font-size: 22px;
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+
+#questionText {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+/* ตัวเลือกคะแนน */
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+
+#choices button {
+
+    width: 100%;
+    padding: 15px;
+
+    border: none;
+    border-radius: 15px;
+
+    background: #e3f2fd;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+
+}
+
+
+#choices button:hover {
+
+    background: #90caf9;
+
+}
+
+
+/* ปุ่มย้อนกลับ ถัดไป */
+
+button {
+
+    border: none;
+    border-radius: 15px;
+
+    padding: 12px 25px;
+
+    margin: 5px;
+
+    font-size: 16px;
+
+}
+
+
+button[onclick="previousQuestion()"] {
+
+    background: #eeeeee;
+
+}
+
+
+button[onclick="nextQuestion()"] {
+
+    background: #2196f3;
+
+    color:white;
+
+}
