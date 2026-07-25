@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SWOT Test</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<h2>
+แบบประเมิน SWOT
+</h2>
+
+
+<h3 id="progress"></h3>
+
+<h2 id="category"></h2>
+
+<p id="questionText"></p>
+
+
+<div id="choices">
+
+
+<button onclick="selectScore(1)">
+1<br>
+ไม่จริงเลย
+</button>
+
+
+<button onclick="selectScore(2)">
+2<br>
+จริงน้อย
+</button>
+
+
+<button onclick="selectScore(3)">
+3<br>
+ปานกลาง
+</button>
+
+
+<button onclick="selectScore(4)">
+4<br>
+ค่อนข้างจริง
+</button>
+
+
+<button onclick="selectScore(5)">
+5<br>
+จริงมาก
+</button>
+
+
+</div>
+
+
+<br>
+
+
+<button onclick="previousQuestion()">
+ย้อนกลับ
+</button>
+
+
+<button onclick="nextQuestion()">
+ถัดไป
+</button>
+
+
+</div>
+
+
+
+<script src="js/questions.js"></script>
+
+<script src="js/test.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SWOT Assessment</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<h1>
+SWOT Assessment
+</h1>
+
+<p>
+แบบประเมินวิเคราะห์จุดแข็ง จุดอ่อน โอกาส และอุปสรรค
+</p>
+
+
+<input 
+id="name"
+type="text"
+placeholder="ชื่อผู้ทำแบบประเมิน">
+
+
+<input 
+id="department"
+type="text"
+placeholder="ชื่อหน่วย">
+
+
+<button class="start-btn" onclick="startTest()">
+
+เริ่มทำแบบประเมิน
+
+</button>
+
+
+</div>
+
+
+<script>
+
+function startTest(){
+
+let name =
+document.getElementById("name").value;
+
+
+let department =
+document.getElementById("department").value;
+
+
+if(name=="" || department==""){
+
+alert("กรุณากรอกข้อมูลให้ครบ");
+
+return;
+
+}
+
+
+localStorage.setItem(
+"userName",
+name
+);
+
+
+localStorage.setItem(
+"department",
+department
+);
+
+
+window.location.href="test.html";
+
+
+}
+
+</script>
+
+
+</body>
+
+</html>
