@@ -221,7 +221,6 @@ console.log("ส่งข้อมูล", result);
 
 fetch(sheetURL,{
   method:"POST",
-  mode:"no-cors",
   headers:{
     "Content-Type":"application/json"
   },
