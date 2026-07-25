@@ -245,10 +245,12 @@ fetch(sheetURL,{
 }
 
 
-if(localStorage.getItem("saved") !== "yes"){
+function saveToSheet(){
 
-    saveToSheet();
+    console.log("saveToSheet ทำงาน");
 
-    localStorage.setItem("saved","yes");
+    // โค้ดส่งข้อมูลของคุณทั้งหมดอยู่ตรงนี้
 
 }
+
+saveToSheet();
