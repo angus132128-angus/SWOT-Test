@@ -235,8 +235,9 @@ fetch(sheetURL,{
 
   })
 })
-.then(()=>{
-  console.log("ส่งข้อมูลแล้ว");
+.then(response=>response.text())
+.then(data=>{
+  console.log("ตอบกลับจาก Apps Script:", data);
 })
 .catch(error=>{
   console.log(error);
