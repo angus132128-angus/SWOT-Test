@@ -391,10 +391,11 @@ button[onclick="nextQuestion()"] {
     transform: scale(0.95);
 }
 
-  logo{
-    width:140px;
+  .logo{
+    width:25%;
+    max-width:120px;
+    min-width:70px;
     height:auto;
     display:block;
-    margin:20px auto;
-    border:2px solid red;
+    margin:0 auto 20px;
 }
