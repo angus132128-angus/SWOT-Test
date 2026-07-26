@@ -387,11 +387,12 @@ button[onclick="nextQuestion()"] {
     transform: scale(0.95);
 }
 
-<img src="logo.png" class="logo" alt="โลโก้สำนักงาน">
-
-<h1>แบบประเมิน SWOT</h1>
-
-
 .next-btn:active {
     transform: scale(0.95);
+}
+
+.logo{
+    width: 140px;
+    display: block;
+    margin: 20px auto 10px;
 }
